@@ -1,0 +1,19 @@
+<h1 mat-dialog-title>Nueva Nota</h1>
+<form action="" [formGroup]="form" (ngSubmit)="onSubmit()">
+<div mat-dialog-content> 
+<mat-form-field>
+<input matInput placeholder="Nombre cliente" formControlName="nombre_cliente"> 
+</mat-form-field>
+<mat-form-field>
+<input matInput placeholder="Nombre Electrodomestico" formControlName="nombre_electro">
+</mat-form-field>
+<mat-form-field>
+<input matInput placeholder="Estado" formControlName="estado">
+</mat-form-field>
+<mat-form-field>
+    <input matInput placeholder="Costo" formControlName="costo">
+    </mat-form-field>
+</div>
+<div mat-dialog-actions>
+<button mat-raised-button color="primary" type="submit">Agregar</button> </div>
+</form>
