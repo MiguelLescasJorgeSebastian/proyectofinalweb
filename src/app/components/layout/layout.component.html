@@ -12,17 +12,13 @@
           <mat-icon mat-list-icon>dashboard</mat-icon>
           Dashboard
         </a>
-        <a mat-list-item routerLink="/admin/notas">
-          <mat-icon mat-list-icon>notas</mat-icon>
-          notas
-        </a>
         <a mat-list-item (click)="logout()">
           <mat-icon mat-list-icon>logout</mat-icon>
    Logout </a>
       </mat-nav-list>
     </mat-sidenav>
     <mat-sidenav-content>
-        <mat-toolbar color="primary">
+        <mat-toolbar >
           <button
             type="button"
             aria-label="Toggle sidenav"
@@ -30,7 +26,7 @@
             (click)="drawer.toggle()">
             <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
      </button>
-          <span (click)="drawer.toggle()">Taller de Reparaciones</span>
+          <span (click)="drawer.toggle()" >Taller de Reparaciones</span>
         </mat-toolbar>
         <router-outlet></router-outlet>
       </mat-sidenav-content>

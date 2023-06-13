@@ -1,0 +1,31 @@
+.ticket {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+  }
+  
+  .ticket h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .ticket p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .ticket strong {
+    font-weight: bold;
+  }
+  
+  .ticket .detalle {
+    margin-top: 10px;
+    border-top: 1px dashed #ccc;
+    padding-top: 10px;
+  }
+  
+  .ticket .detalle p {
+    margin-bottom: 5px;
+  }
+  

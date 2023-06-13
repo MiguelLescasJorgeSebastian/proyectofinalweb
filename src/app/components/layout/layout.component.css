@@ -1,2 +1,11 @@
 
-    
+span {
+    color: #fff;
+    margin: 0 20px;
+  }
+  mat-toolbar{
+    background-color: #000;
+  }
+  button{
+    background-color: #fff;
+  }

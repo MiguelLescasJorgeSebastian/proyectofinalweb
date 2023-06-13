@@ -23,6 +23,9 @@ import { MatSortModule } from '@angular/material/sort';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { ReparacionesComponent } from './pages/reparaciones/reparaciones.component';
 import { CrearordenComponent } from './crearorden/crearorden.component';
+import { CrearempleadoComponent } from './crearempleado/crearempleado.component';
+import { TicketComponent } from './ticket/ticket.component';
+import { MatSelectModule } from '@angular/material/select';
 
 @NgModule({
   declarations: [
@@ -31,7 +34,9 @@ import { CrearordenComponent } from './crearorden/crearorden.component';
     DashboardComponent,
     LayoutComponent,
     ReparacionesComponent,
-    CrearordenComponent
+    CrearordenComponent,
+    CrearempleadoComponent,
+    TicketComponent
   ],
   imports: [
     BrowserModule,
@@ -50,7 +55,7 @@ import { CrearordenComponent } from './crearorden/crearorden.component';
     MatTableModule,
     MatSortModule,
     MatPaginatorModule,
-
+    MatSelectModule,
   ],
   providers: [
     {

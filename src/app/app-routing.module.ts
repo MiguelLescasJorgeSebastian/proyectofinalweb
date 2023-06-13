@@ -6,6 +6,8 @@ import { AuthGuard } from './guards/auth.guard';
 import { LayoutComponent } from './components/layout/layout.component';
 import { CrearordenComponent } from './crearorden/crearorden.component';
 import { ReparacionesComponent } from './pages/reparaciones/reparaciones.component';
+import { CrearempleadoComponent } from './crearempleado/crearempleado.component';
+import { TicketComponent } from './ticket/ticket.component';
 
 const routes: Routes = [
   {
@@ -34,6 +36,14 @@ const routes: Routes = [
      {
           path:'pedidos',
           component:ReparacionesComponent
+        }
+        ,{
+          path:'empleado',
+          component:CrearempleadoComponent
+        }
+        ,{
+          path:'ticket',
+          component:TicketComponent
         }
     ]
      }

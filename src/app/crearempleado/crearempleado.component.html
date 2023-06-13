@@ -1,0 +1,17 @@
+<h1 mat-dialog-title>Nuevo Empleado</h1>
+<form action="" [formGroup]="form" (ngSubmit)="onSubmit()">
+<div mat-dialog-content> 
+<mat-form-field>
+<input matInput placeholder="Nombre Empleado" formControlName="nombre_cliente"> 
+</mat-form-field>
+<mat-form-field>
+<input matInput placeholder="Correo electronico" formControlName="nombre_electro">
+</mat-form-field>
+<mat-form-field>
+<input matInput placeholder="Password" formControlName="estado">
+</mat-form-field>
+
+</div>
+<div mat-dialog-actions>
+<button mat-raised-button color="primary" type="submit">Agregar</button> </div>
+</form>
